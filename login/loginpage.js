@@ -53,7 +53,7 @@ function changeToUser()
 			if (passwordUser[index] == password.value) 
 			{
 				localStorage.setItem("loggedUser",JSON.stringify(email.value));
-				window.location.href = "../home/homepage.html";
+				window.location.href = "./home/homepage.html";
 			} 
 			else 
 			{
